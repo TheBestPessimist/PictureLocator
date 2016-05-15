@@ -34,7 +34,7 @@ public abstract class
 GpxScalarNodeParser
 {
 	// 2012-02-25T09:28:45Z
-	protected final static	SimpleDateFormat dateFormat = new SimpleDateFormat( "yyyy-MM-dd'T'kk:mm:ssZ" ) ;
+	protected static SimpleDateFormat dateFormat = GpxParserOptions.getDateFormat();
 
     protected
     Double

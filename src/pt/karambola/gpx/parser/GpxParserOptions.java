@@ -22,6 +22,8 @@
 
 package pt.karambola.gpx.parser;
 
+import java.text.SimpleDateFormat;
+
 public
 class
 GpxParserOptions
@@ -37,6 +39,7 @@ GpxParserOptions
 	public static final GpxParserOptions ONLY_POINTS 	= new GpxParserOptions( false, true , true  ) ;
 	public static final GpxParserOptions ONLY_ROUTES	= new GpxParserOptions( true , false, true  ) ;
 	public static final GpxParserOptions ONLY_TRACKS	= new GpxParserOptions( true , true , false ) ;
+	private static SimpleDateFormat dateFormat =  new SimpleDateFormat( "yyyy-MM-dd'T'kk:mm:ssZ" );
 
 	public
 	GpxParserOptions( final boolean skipPoints, final boolean skipRoutes, final boolean skipTracks )
@@ -45,5 +48,13 @@ GpxParserOptions
 		this.skipPoints = skipPoints ;
 		this.skipRoutes = skipRoutes ;
 		this.skipTracks = skipTracks ;
+	}
+
+	public void setDateFormat(SimpleDateFormat dateFormat){
+		this.dateFormat = dateFormat;
+	}
+
+	public static SimpleDateFormat getDateFormat() {
+		return dateFormat;
 	}
 }
