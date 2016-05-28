@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GeoKarambolaLib/GeoKarambolaLib.iml" filepath="$PROJECT_DIR$/GeoKarambolaLib/GeoKarambolaLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resources/GeoKarambolaLib/GeoKarambolaLib.iml" filepath="$PROJECT_DIR$/resources/GeoKarambolaLib/GeoKarambolaLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/PictureLocator.iml" filepath="$PROJECT_DIR$/PictureLocator.iml" />
     </modules>
   </component>
