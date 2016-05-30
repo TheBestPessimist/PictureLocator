@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/resources/GeoKarambolaLib/GeoKarambolaLib.iml" filepath="$PROJECT_DIR$/resources/GeoKarambolaLib/GeoKarambolaLib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PictureLocator.iml" filepath="$PROJECT_DIR$/PictureLocator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PictureLocator.iml" filepath="$PROJECT_DIR$/.idea/modules/PictureLocator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PictureLocator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/PictureLocator_main.iml" group="PictureLocator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PictureLocator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/PictureLocator_test.iml" group="PictureLocator" />
     </modules>
   </component>
 </project>
